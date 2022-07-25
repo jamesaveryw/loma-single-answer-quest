@@ -1,0 +1,88 @@
+*:focus, a:focus {
+    outline: 3px solid #ff7d00;
+}
+
+.quest_char {
+    margin: auto;
+    max-width: 90ch;
+    line-height: 1.5;
+}
+
+span.jb1 {
+    font-size: 16px;
+    color: #000000;
+}
+
+.qSpacing {
+    margin-top: 10px;
+    max-width: 90ch;
+    line-height: 1.5;
+}
+.c_jb_column1 {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    max-width: 90ch;
+    line-height: 1.5;
+    margin: auto;
+}
+
+.c_container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    /* font-size: 22px; */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.c_qtext {
+    display: inline-block;
+    vertical-align: 0px;
+    font-style: normal;
+    padding-left: 50px;
+    padding-right: 10px;
+    margin-top: -18px;
+}
+
+.qtext {
+    display: inline-block;
+    vertical-align: 5px;
+    font-style: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    /* background-color: #eee; */
+    background-image: url(images/circle-xs.png);
+    background-size: contain;
+}
+.c_checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    /* background-color: #eee; */
+    background-image: url(images/checkmark-xs.png);
+    background-size: contain;
+}
+.i_checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    /* background-color: #eee; */
+    background-image: url(images/times-circle-xs.png);
+    background-size: contain;
+}
